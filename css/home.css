@@ -1,0 +1,126 @@
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+header {
+	height: 40px;
+	width: 100%;
+	background-color: #242424;
+	position: relative;
+	top: 0;
+	overflow: hidden;
+}
+.header-left {
+	float: left;
+	line-height: 40px;
+	margin-left: 60px;
+	color: #fff;
+	font-size: 15px;
+}
+/*.header-right {
+	float: right;
+	line-height: 40px;
+	margin-right: 60px;
+	color: #fff;
+	font-size: 15px;
+}*/
+header  p {
+	margin: 0;
+	font-size: 12px;
+}
+header p span {
+	color: #399999;
+	cursor: pointer;
+}
+/*footer*/
+footer {
+	background-color: #fff;
+	height: 40px;
+}
+footer > p {
+	font-size: 12px;
+	color: #000;
+	font-family: serif;
+	line-height: 40px;
+	text-align: center;
+	margin: 0;
+}
+footer  a {
+	color: #339999;
+	text-decoration: none;
+
+}
+
+/*left*/
+
+.content-left {
+	float: left;
+	/*height: 800px;*/
+	height: 100%;
+	background-color: #242424;
+}
+.content {
+	height: 100%;
+}
+.menu_head {
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	/*border: 1px solid #e1e1e1;*/
+	position: relative;
+	background: #399999;
+	margin: 0;
+}
+.menu_head:hover {
+	background-color: #F6F6F6;
+	font-size: 18px;
+	color: #000;
+}
+
+.menu_body {
+	width: 160px;
+	height: auto;
+	overflow: hidden;
+	line-height: 38px;
+	background: #fff;
+}
+
+.menu_body a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 48px;
+	color: #fff;
+	background: #242424;
+	text-decoration: none;
+	/*border-bottom: 1px solid #e1e1e1;*/
+	font-size: 14px;
+}
+
+/*right*/
+
+.content-right {
+	/*height: 800px;*/
+	height: 100%;
+	margin-left: 160px;
+	background-color: #F6F6F6;
+}
+#map {
+	height: 100%;
+	width: 100%;
+	/*overflow: hidden;*/
+}
+
+.esriScalebar{
+	margin-left: 160px;
+}
+.menu_body a:hover {
+	text-decoration: none;
+}
