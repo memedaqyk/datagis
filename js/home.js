@@ -7,8 +7,12 @@ backTop.onclick = function() {
 
 var text;
 
-var _main = document.getElementsByTagName('main')[0];
-_main.style.height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 40 + 'px';
+var map = document.getElementById('map');
+map.style.height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 40 + 'px';
+
+var contentLeft = document.getElementsByClassName('content-left')[0];
+contentLeft.style.height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 40 + 'px';
+//_main.style.height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 40 + 'px';
 
 
 $(document).ready(function(){
